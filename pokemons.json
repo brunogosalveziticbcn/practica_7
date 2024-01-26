@@ -1,0 +1,84 @@
+{
+  "pokemóns": [
+    {
+      "id": 1,
+      "nom": "Pikachu",
+      "tipus": ["Electricitat"],
+      "pes": 60,
+      "alçada": 0.4,
+      "estadística": {
+        "velocitat": 90,
+        "fortalesa": 55,
+        "precisió": 90,
+        "resistència": 40
+      },
+      "moviments": [
+        {
+          "nom": "Ataque rápido",
+          "descripció": "Un atac ràpid que infligeix dany físic",
+          "potència": 40,
+          "contacte": true
+        },
+        {
+          "nom": "Ataque cargado",
+          "descripció": "Un atac carregat que infligeix més dany que un atac ràpid",
+          "potència": 120,
+          "contacte": true
+        }
+      ],
+      "imatge": "C:/Users\nanda/OneDrive/Documentos/M4/Practica 7.2/Eevee",
+      "evolucions": [
+        {
+          "id": 25,
+          "nivell": 30
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Eevee",
+      "tipus": ["Normal"],
+      "pes": 6,
+      "alçada": 0.3,
+      "estadística": {
+        "velocitat": 55,
+        "fortalesa": 50,
+        "precisió": 55,
+        "resistència": 50
+      },
+      "moviments": [
+        {
+          "nom": "Ataque rápido",
+          "descripció": "Un atac ràpid que infligeix dany físic",
+          "potència": 40,
+          "contacte": true
+        },
+        {
+          "nom": "Ataque cargado",
+          "descripció": "Un atac carregat que infligeix més dany que un atac ràpid",
+          "potència": 100,
+          "contacte": true
+        }
+      ],
+      "imatge": "C:/Users\nanda/OneDrive/Documentos/M4/Practica 7.2/Pikachu",
+      "evolucions": [
+        {
+          "id": 7,
+          "nivell": 25
+        },
+        {
+          "id": 10,
+          "nivell": 30
+        },
+        {
+          "id": 13,
+          "nivell": 30
+        },
+        {
+          "id": 16,
+          "nivell": 30
+        }
+      ]
+    }
+  ]
+}
